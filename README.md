@@ -10,7 +10,7 @@ Dataset links:
 
 Assuming the dataset has been downloaded to ~/dataset, you can run the code with
 ```
-python train.py -if ~/dataset
+python train.py -if ~/dataset -p "0"
 ```
 
 - Logs will be redirected to ./logs/log.txt unless another output directory is specified.
